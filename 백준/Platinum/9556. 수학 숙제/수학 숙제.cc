@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 using ll=long long;
-#define int ll
 
 const ll MOD = 1000000007;
 
@@ -21,7 +20,7 @@ struct matrix{
     }
 };
 
-matrix mpow(matrix a,int n){
+matrix mpow(matrix a,ll n){
     if(n==0)return {1,0,0,1};
     if(n==1)return a;
     if(n==2)return a*a;
@@ -46,14 +45,14 @@ void tc(){
             }
             cnt+=(c==6);
         }
-        printf("%lld\n",cnt);
+        printf("%d\n",cnt);
         return;
     }
     int arr[120]={1,};
     for(int i=0;i<120;i++)arr[i]=1;
     for(int i=1;i<=6;i++){
         int x;
-        scanf("%1lld",&x);
+        scanf("%1d",&x);
         if(x==0){
             for(int j=0;j<120;j++)if(j%i==0)arr[j]=0;
         }
@@ -75,7 +74,7 @@ void tc(){
 
 int32_t main(void){
     int TC;
-    scanf("%lld",&TC);
+    scanf("%d",&TC);
     while(TC--){
         tc();
     }

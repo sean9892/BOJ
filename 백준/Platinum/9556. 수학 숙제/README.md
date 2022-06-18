@@ -8,7 +8,7 @@
 
 ### 분류
 
-분할 정복을 이용한 거듭제곱(exponentiation_by_squaring), 확장 유클리드 호제법(extended_euclidean), 수학(math), 정수론(number_theory)
+분할 정복을 이용한 거듭제곱(exponentiation_by_squaring), 수학(math), 정수론(number_theory)
 
 ### 문제 설명
 

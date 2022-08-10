@@ -1,0 +1,1 @@
+print("The 1-3-sum is",sum(x*y for x,y in zip([9,7,8,0,9,2,1,4,1,8]+[int(input())for _ in range(3)],[1,3]*7)))

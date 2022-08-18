@@ -11,7 +11,7 @@ vector<int> res;
 int used[1010];
 
 int main(void){
-  //ios::sync_with_stdio(0);cin.tie(0);
+  ios::sync_with_stdio(0);cin.tie(0);
   cin>>n>>m;
   int p=-1;
   int x=0;

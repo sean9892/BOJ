@@ -25,9 +25,7 @@ int f(int a,int b){
 	}
 	if(a<b)swap(a,b);
 	if(b==0)return a;
-	int A=bitlen(a),B=bitlen(b);
-	int c=(b<<(A-B));
-	return f(a^c,b);
+	return f(a^b,b);
 }
 
 int w[nmax],p[nmax],d[nmax];
